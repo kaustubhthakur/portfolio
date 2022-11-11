@@ -16,18 +16,18 @@
     <section class="hero">
 
         <nav>
-            <div class="resume"><a href="./resume-cv.pdf" download class="cv">C-V</a></div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li> <a href="#work">Projects</a> </li>
-                <li><a href="#connect">Contact</a></li>
+            <div class="resume"><a href="./resume.pdf" download class="cv">Resume</a></div>
+            <ul  >
+                <li><a class="header"  href="#about">About</a></li>
+                <li><a class="header"   href="#skills">Skills</a></li>
+                <li> <a class="header" href="#work">Projects</a> </li>
+                <li><a class="header" href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="hero-text">
             <div class="name">
-                <h2>Hello , I am </h2>
-                <h1>Kaustubh Thakur</h1>
+                <h2 class="text-name" >Hello , I am </h2>
+                <h1 class="text-name">Kaustubh Thakur</h1>
 
             </div>
 
@@ -37,7 +37,7 @@
         <div class="info">
             <h2>About-Me</h2>
             <p class="text-about">Hi , I am Kaustubh Thakur. 
-                I am pursuing my Btech in Instrumentation Engineering. I am
+                I am pursuing my BE in Instrumentation Engineering. I am
                 Web-developer and a Competative Programmer and  i love playing Chess</p>
         </div>
         <div class="text-image">
@@ -195,28 +195,30 @@
             </div>
             <div class="contact-icons">
                 <div class="contact-icon">
-                    <h3><a href=""><img class="img" src="./skills/codeforces.png" alt=""></a></h3>
-<h3><a href=""><img class="img" src="./skills/leetcode.png" alt=""></a></h3>
-<h3><a href=""><img class="img" src="./skills/github.png" alt=""></a></h3>
-<h3><a href=""><img class="img" src="./skills/twitter.png" alt=""></a></h3>
-<h3><a href=""><img class="img" src="./skills/Inkedin.png" alt=""></a></h3>
+<h3><a href="https://codeforces.com/profile/Jezus_"><img class="img" src="./skills/codeforces.png" alt=""></a></h3>
+<h3><a href="https://leetcode.com/Kaustubh00_1/"><img class="img" src="./skills/leetcode.png" alt=""></a></h3>
+<h3><a href="https://github.com/kaustubhthakur"><img class="img" src="./skills/github.png" alt=""></a></h3>
+<h3><a href="https://mobile.twitter.com/kaustubhthakurr"><img class="img" src="./skills/twitter.png" alt=""></a></h3>
+<h3><a href="https://www.linkedin.com/in/kaustubh-thakur-a8734722a"><img class="img" src="./skills/Inkedin.png" alt=""></a></h3>
                 </div>
             </div>
         </div>
         <div class="right-contact">
-            <form action="" class="contact-form">
-                <div class="input-control i-c-2">
-                    <input type="text" required placeholder="YOUR NAME">
-                    <input type="email" required placeholder="YOUR EMAIL">
+            <form action="https://formsubmit.co/kaustubhthakur166@gmail.com" method="POST" >
+                <div class="input-control i-c-2 ">
+                    <input type="text" name="name"   placeholder="YOUR NAME" required>
+                <input type="email" name="email"  placeholder="YOUR EMAIL">
+                </div>
+                
+                <div class="input-control">
+                    <input type="text"  placeholder="ENTER SUBJECT" required>
                 </div>
                 <div class="input-control">
-                    <input type="text" required placeholder="ENTER SUBJECT">
+                    <textarea name="name"  cols="15" rows="8" placeholder="Message Here..." required></textarea>
                 </div>
-                <div class="input-control">
-                    <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                </div>
+               
                 <div class="input-control-btn">
-                    <input class="submit-btn-btn" type="submit" name=""  value="Submit">
+                    <button class="submit-btn-btn" type="submit" value="Submit">Submit</button>
                 </div>
             </form>
         </div>
@@ -225,7 +227,6 @@
 </section>
 
 
-    <script src="app.js"></script>
 
 </body>
 

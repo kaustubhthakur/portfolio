@@ -9,7 +9,8 @@ background-color: rgb(71, 155, 230);
     background-color: rgb(185, 185, 250);
     height: 100vh;
     color: rgb(145, 240, 209);
-    font-size: 40px;
+    text-decoration: none;
+    font-size: 100px;
 }
 nav
 {
@@ -37,11 +38,19 @@ text-decoration: none;
     margin: 30px;
     font-size: xx-large;
     height: 40px;
-    width: 100px;
+    width: 130px;
     text-align: center;
     background-color: rgb(141, 239, 239);
     border-radius: 20px;
     text-decoration: none;
+}
+.header 
+{
+  text-decoration: none;
+}
+.text-name 
+{
+  font-size: 100px;
 }
 .cv 
 {    
@@ -74,11 +83,12 @@ font-size: 50px;
 }
 .hero-text
 {
+  text-decoration: none;
     display: flex;
     height: 100%;
     justify-content: space-between;
     align-items: center;
-    font-size: 60px;
+    font-size: 80px;
    
  
 }
@@ -94,7 +104,6 @@ padding: 80px;
 {
     
     background-color: rgb(125, 125, 243);
- 
     color: rgb(13, 15, 14);
     font-size: 30px;
     display: grid;
@@ -333,6 +342,7 @@ padding: 80px;
 
 .work 
 {
+  
     padding: 80px;
    display: flex;
    background: rgb(97, 97, 230);
@@ -551,4 +561,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     border-radius: 15px;
     box-shadow:5px 5px 5px   rgb(22, 6, 84,0.5);
+}
+li{
+  text-decoration: none;
+}
+ul
+{
+  text-decoration: none;
 }
